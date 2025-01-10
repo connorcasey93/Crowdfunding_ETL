@@ -1,5 +1,7 @@
 # Crowdfunding_ETL
 Project 2
+Code found in Starter_File folder
+
 The instructions for this mini project are divided into the following subsections:
 
 Create the Category and Subcategory DataFrames
@@ -55,9 +57,9 @@ Create the Campaign DataFrame
   Create the Crowdfunding Database
 Create a new Postgres database, named crowdfunding_db.
 Use code in crowdfunding_db_schema.sql for this subsection
-Using crowdfunding_db_schema.sql to create the tables in the correct order to handle the foreign keys.
-Verify the table creation by running each SELECT statement seperately in from (code)
-Import each CSV file into its corresponding SQL table (in the order of category, subcategory,contacts, campaign )
-Verify that each table has the correct data by running a SELECT statement for each from (code)
+- Using crowdfunding_db_schema.sql to create the tables in the correct order to handle the foreign keys.
+- Verify the table creation by running each SELECT statement seperately in from project2_campaignquery.sql
+- Import each CSV file into its corresponding SQL table (in the order of category, subcategory,contacts, campaign)
+- Verify that each table has the correct data by running a SELECT statement for each from project2_campaignquery.sql
 
    
